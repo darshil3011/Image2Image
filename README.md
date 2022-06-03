@@ -16,6 +16,12 @@ I have covered a unique use-case here which will be appreciated by graphic desig
   - Autoencoder based CNN Model
   - Pyramid Real Image Denoising Network (PridNET)
 
+### Dataset :
+
+I have used a [kaggle dataset](https://www.kaggle.com/code/therealcyberlord/watermark-removal-using-convolutional-autoencoder/data) and input pipeline here so that I can focus on the model architechtures. 
+
+### Model Architechture : 
+
 I have included both the model architechtures in the notebook. You can choose whichever model you want to train. The model is computationally heavy, so make sure to modify batch_size and steps_per_epoch as per your preference. Due to computational and time limitations, I could only train it for 10 epochs. You can observe that watermark has not completely removed but it has blended into the image and its intensity is quite low. If you train this with huge dataset for more number of training epochs, it will definately provide impactful results.
 
 ### Results :
@@ -32,3 +38,9 @@ I have included both the model architechtures in the notebook. You can choose wh
 - Github - https://github.com/darshil3011
 - Medium - https://thinkinbytes.medium.com
 - LinkedIn - https://linkedin.com/in/darshil-modi3011
+
+### References:
+- PRIDNet Model architechture : https://arxiv.org/abs/1908.00273?context=cs.CV
+- Dataset and Input pipeline : https://www.kaggle.com/code/therealcyberlord/watermark-removal-using-convolutional-autoencoder/notebook
+- Intro to Auto-encoders : https://www.tensorflow.org/tutorials/generative/autoencoder
+
